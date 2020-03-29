@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body class="container-fluid">
+	<h2 class="display-1 row justify-content-center">Tic Tac Toe</h2>
+    <div id="container" class="d-flex justify-content-center">
+		<table>
+			<tbody>
+				<tr class="board-row">
+					<td class="square" id="c0" onclick="handleClick(0)"></td>
+					<td class="square" id="c1" onclick="handleClick(1)"></td>
+					<td class="square" id="c2" onclick="handleClick(2)"></td>
+				</tr>
+				<tr className="board-row">
+					<td class="square" id="c3" onclick="handleClick(3)"></td>
+					<td class="square" id="c4" onclick="handleClick(4)"></td>
+					<td class="square" id="c5" onclick="handleClick(5)"></td>
+				</tr>
+				<tr className="board-row">
+					<td class="square" id="c6" onclick="handleClick(6)"></td>
+					<td class="square" id="c7" onclick="handleClick(7)"></td>
+					<td class="square" id="c8" onclick="handleClick(8)"></td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<p id ="status"></p>
+		</div>
+    </div>
+    </div>
+  </body>
+</html>

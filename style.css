@@ -1,0 +1,30 @@
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+td{
+  border: 1px solid #020202;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 150px;
+}
+.container {
+  height: auto;
+  width: auto;
+  border-collapse: separate;
+  max-width: 900px;
+  max-height: 900px;
+  margin: auto;
+}
+
+.square {
+	height: 300px;
+	width: 300px;
+	background-color: #47678a;
+	border-collapse: seperate;
+}
+.square:hover{
+	background-color: #9ec3ee;
+}
+
