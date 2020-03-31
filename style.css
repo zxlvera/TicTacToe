@@ -9,6 +9,7 @@ td{
   vertical-align: middle;
   font-size: 150px;
 }
+
 .container {
   height: auto;
   width: auto;
@@ -21,10 +22,18 @@ td{
 .square {
 	height: 300px;
 	width: 300px;
-	background-color: #47678a;
+	background-color: #98c0eb;
 	border-collapse: seperate;
 }
 .square:hover{
-	background-color: #9ec3ee;
+	background-color: #ca5495;
 }
 
+
+.btn{
+  font-size: 100px;
+}
+
+.btn:hover{
+  background-color: #ca5495;
+}
